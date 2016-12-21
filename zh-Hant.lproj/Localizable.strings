@@ -1,0 +1,217 @@
+/* 
+  Localizable.strings
+  CRM Mobile Lite
+
+  Created by infoware on 21/1/16.
+  Copyright © 2016年 infoware. All rights reserved.
+*/
+/*
+ 
+ Chinese Traditional
+ 
+ */
+
+topName = "iCRM 精簡版";
+
+// Button
+
+add = "新增";
+ok = "確定";
+cancel = "取消";
+save = "存儲";
+delete = "删除";
+on = "是";
+off = "否";
+return = "返回";
+mr = "男士";
+ms = "女士";
+single = "未婚";
+married = "已婚";
+reset = "重置";
+serach = "査詢";
+province = "省份";
+city = "城市";
+transfer = "上傳";
+exit = "退出";
+update = "修改";
+close = "關閉";
+modify = "修改";
+
+
+//alertView
+
+warning = "警告";
+altsave = " 存儲中...";
+saveSuccess = "存儲成功!";
+addUserfaile = "新增用戶失敗!";
+exist = "用戶已經存在!";
+deleteSuccess = "删除成功!";
+deleteFaile = "删除失敗!";
+unexist = "改用戶不存在!";
+connect = "連接中...";
+connectSuccess = "連接成功!";
+connectFaile = "連接失敗!";
+incorectPwd = "密碼錯誤!";
+shouldInput = "請填寫 \"會員編號\"!";
+checkRedOne = "請檢查紅色選項!";
+isExist = "已經存在!";
+initCountry = "請首先初始化\"國家管理項\"!";
+chooseCountry = "請選擇國家!";
+chooseCountryAndProvinc = "請選擇國家和省份!";
+errorInput = "輸入錯誤!";
+seleteItem = "請選擇一項!";
+setFTPServer = "請設置FTP服務器!";
+transferSuccess = "上傳成功!";
+transferFailed = "上傳失敗!";
+
+// LogonViewController
+
+logUserID = "帳   號";
+logPassword = "密   碼";
+logLogon = "登入";
+logUserAccountSetup = "設定帳號";
+
+//Main Menu
+
+maiMainMenu = "主頁";
+maiMemberRegistration = "會員注册";
+mainMemberMaster = "會員管理";
+maiMemberEnquiry = "會員查詢";
+maiAgeGroupMaster = "年齡管理";
+maiNationalityMaster = "地區管理";
+maiCountryMaster = "國籍管理";
+maiIncomeRangeMaster = "收入管理";
+maiOccupationMaster = "職業管理";
+maiUserAccountsSetup = "帳號设置";
+maiFTPServerConnectionSetup = "設定FTP伺服器";
+maiDataTransfer = "檔案匯出";
+maiSystemParameters = "系統設置";
+mainEducationMaster = "教育程度管理";
+
+//User Account Setup
+
+useUserAccountSetup = "設定帳號";
+useTip = "請選擇下麵的一個帳戶進行維護，或按一下“添加”按鈕以創建一個新帳戶。";
+userID = "帳號";
+name = "名稱";
+administrator = "管理員";
+password = "密碼";
+
+//FTPServer setup
+
+
+ftpConnectionSetup = "設定FTP伺服器";
+ftpServer = "FTP 伺服器";
+ftpUser = "FTP 帳號";
+ftpPassword = "FTP 密碼";
+
+
+//Member Registration
+regMemberRegistration = "會員注册";
+regMemberCode = "會員編號 *";
+regIDNumber = "身份證號";
+regSumameAndFristName = "姓氏/名字";
+regTitle = "稱呼";
+regBirthday = "出生日期";
+regAgeOfGroup = "年齡組別";
+regMobileNumber = "手機號碼";
+regReceiveMessage = "接收短訊";
+regPhoneNumber = "電話";
+regOfficeNumber = "辦公室電話";
+regEmailAddress = "電郵地址";
+regReceiveEmail = "接收電郵";
+regMarriesStatus = "婚姻狀況";
+regAddress = "地址";
+regDistrictGroup = "地區組別";
+regNationalityGroup = "國籍組別";
+regReceiveMail = "接收郵件";
+regOccupation = "職業";
+regIncomeGroup = "入息組別";
+regEducationGroup = "教育組別";
+regMemberCodeWithoutStar = "會員編號";
+
+regSumame = "姓氏";
+regFirstName = "名字";
+regDay = "日";
+regMonth = "月";
+regYear = "年";
+regAgeGroup = "年齡組別";
+regArea = "地區";
+regProvince = "省份";
+regMobileNumber = "手機號碼";
+regCity = "都市";
+
+
+
+
+//Member Enquiry
+
+enqSearchContent = "請輸入查詢會員資料（姓名，手機電話，會員編號，身份證號碼）";
+enqMemberEnquiry = "會員查詢";
+enqline = "行號";
+enqMemberName = "會員名稱";
+enqMemberID = "會員編號";
+enqMobilePhoneNum = "手機號碼";
+enqResultHas = "有 ";
+enqResultMemmber = " 個會員符合査詢";
+
+//Member Maintance
+memMemberMaintenance = "會員維護";
+
+//Age Group Master
+
+ageLine = "行號";
+ageAgeGroup = "年齡組別";
+ageAgeGroupMaster = "年齡管理";
+ageFromAge = "起始年齡";
+ageToAge = "截止年齡";
+ageUpdateToAge = "請修改上一行的 ";
+ageShould = "應該大於 ";
+
+
+//Occupation Master
+occOccupation = "職業";
+occOccupationMaster = "職業管理";
+
+
+//Income Range Master
+incIncomeRange = "收入範圍";
+incIncomeRangeMaster = "收入管理";
+
+
+//Nationality Master
+natNationality = "國籍";
+natNationalityMaster = "國籍管理";
+//Country Master
+conCountry = "國家";
+conCPC = "國家 / 省份 / 都市管理";
+proCountry = "國家:";
+citProvince = "省份:";
+datCity = "城市";
+datProvince = "省份";
+datCountry = "國家";
+//Education Master
+eduEducation = "教育程度";
+eduEducationMaster = "教育程度管理";
+
+
+//Data Transfer
+datChooseTip = "請選擇一個或多個文件上傳到服務器";
+
+
+//System Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,21 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0739D71CB4B77600AC9A12 /* EnquiryResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0739D61CB4B77600AC9A12 /* EnquiryResultCell.swift */; };
+		BF0739D91CB502D100AC9A12 /* EnquiryDetaileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0739D81CB502D100AC9A12 /* EnquiryDetaileViewController.swift */; };
+		BF1197C91C608F1D00F57799 /* CurrentFTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1197C81C608F1D00F57799 /* CurrentFTPModel.swift */; };
+		BF1373EA1C50778F00FE1360 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1373EC1C50778F00FE1360 /* Localizable.strings */; };
+		BF18793A1CACF4C7002C4A73 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1879391CACF4C7002C4A73 /* EducationViewController.swift */; };
+		BF29DACA1C966BB30057BCA2 /* AgeFromToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29DAC91C966BB30057BCA2 /* AgeFromToViewController.swift */; };
+		BF29DACC1C96709F0057BCA2 /* AgeFromToTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29DACB1C96709F0057BCA2 /* AgeFromToTableViewCell.swift */; };
+		BF5A8F741C869297007E8863 /* ProvinceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A8F731C869297007E8863 /* ProvinceViewController.swift */; };
+		BF5A8F911C86E082007E8863 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A8F901C86E082007E8863 /* CityViewController.swift */; };
+		BF6026D11CA8CE300080D720 /* GroupSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6026D01CA8CE300080D720 /* GroupSelectView.swift */; };
+		BF6238A91C8579D800302FC4 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6238A81C8579D800302FC4 /* CountryView.swift */; };
+		BF62AC1C1CB64E0F009316E7 /* MaintenanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62AC1B1CB64E0F009316E7 /* MaintenanceController.swift */; };
+		BF78755F1CA233F4001A0A65 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78755D1CA233F4001A0A65 /* RegistViewController.swift */; };
+		BF7875641CA24196001A0A65 /* RegisteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7875631CA24196001A0A65 /* RegisteView.swift */; };
+		BF7BA2A51C5879B300A97768 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2A41C5879B300A97768 /* UIColor+Extension.swift */; };
+		BF7BA2A71C587A5E00A97768 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2A61C587A5E00A97768 /* String+Extension.swift */; };
+		BF7BA2A91C587CA700A97768 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2A81C587CA700A97768 /* UILabel+Extension.swift */; };
+		BF7BA2AB1C587D9C00A97768 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2AA1C587D9C00A97768 /* UIButton+Extension.swift */; };
+		BF7BA2AD1C58825500A97768 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2AC1C58825500A97768 /* UITextField+Extension.swift */; };
+		BF7BA2AF1C58AF9300A97768 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2AE1C58AF9300A97768 /* BaseView.swift */; };
+		BF7BA2B11C58B38E00A97768 /* UserAccoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA2B01C58B38E00A97768 /* UserAccoutView.swift */; };
+		BF7EC7481C71BD48003EF360 /* IncomeRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EC7471C71BD48003EF360 /* IncomeRangeViewController.swift */; };
+		BF7EC74A1C71BD82003EF360 /* OccupationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EC7491C71BD82003EF360 /* OccupationViewController.swift */; };
+		BF7EC74C1C71BDA6003EF360 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EC74B1C71BDA6003EF360 /* CountryViewController.swift */; };
 		BF879C9A1C48EDF500A6A5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879C991C48EDF500A6A5A5 /* AppDelegate.swift */; };
 		BF879C9C1C48EDF500A6A5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879C9B1C48EDF500A6A5A5 /* ViewController.swift */; };
 		BF879C9F1C48EDF500A6A5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF879C9D1C48EDF500A6A5A5 /* Main.storyboard */; };
 		BF879CA11C48EDF500A6A5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF879CA01C48EDF500A6A5A5 /* Assets.xcassets */; };
 		BF879CA41C48EDF500A6A5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF879CA21C48EDF500A6A5A5 /* LaunchScreen.storyboard */; };
+		BF879CD41C48F3AC00A6A5A5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CAE1C48F3AC00A6A5A5 /* FMDatabase.m */; };
+		BF879CD51C48F3AC00A6A5A5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CB01C48F3AC00A6A5A5 /* FMDatabaseAdditions.m */; };
+		BF879CD61C48F3AC00A6A5A5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CB21C48F3AC00A6A5A5 /* FMDatabasePool.m */; };
+		BF879CD71C48F3AC00A6A5A5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CB41C48F3AC00A6A5A5 /* FMDatabaseQueue.m */; };
+		BF879CD81C48F3AC00A6A5A5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CB71C48F3AC00A6A5A5 /* FMResultSet.m */; };
+		BF879CD91C48F3AC00A6A5A5 /* FTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CBA1C48F3AC00A6A5A5 /* FTPManager.m */; };
+		BF879CDA1C48F3AC00A6A5A5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879CBC1C48F3AC00A6A5A5 /* BaseViewController.swift */; };
+		BF879CDB1C48F3AC00A6A5A5 /* INFODrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879CBD1C48F3AC00A6A5A5 /* INFODrawerViewController.swift */; };
+		BF879CDC1C48F3AC00A6A5A5 /* INFODropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879CBE1C48F3AC00A6A5A5 /* INFODropShadowView.swift */; };
+		BF879CDD1C48F3AC00A6A5A5 /* INFOTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879CBF1C48F3AC00A6A5A5 /* INFOTableViewCell.swift */; };
+		BF879CDE1C48F3AC00A6A5A5 /* INFOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879CC01C48F3AC00A6A5A5 /* INFOViewController.swift */; };
+		BF879CDF1C48F3AC00A6A5A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF879CC31C48F3AC00A6A5A5 /* MBProgressHUD.m */; };
+		BF879CEF1C48F59200A6A5A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879CEE1C48F59200A6A5A5 /* libsqlite3.tbd */; };
+		BF9927631C75C6E800AB9E8E /* MasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9927621C75C6E800AB9E8E /* MasterModel.swift */; };
+		BFA3B04F1CB390D100FE7896 /* EnquiryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3B04E1CB390D100FE7896 /* EnquiryView.swift */; };
+		BFA3B0511CB3C54F00FE7896 /* EnquiryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3B0501CB3C54F00FE7896 /* EnquiryResultView.swift */; };
+		BFA7DD151C5EFD5000D3AFDF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA7DD141C5EFD5000D3AFDF /* UserModel.swift */; };
+		BFA7DD171C5F0AE700D3AFDF /* CurrentUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA7DD161C5F0AE700D3AFDF /* CurrentUserModel.swift */; };
+		BFC66E2A1C5B153300E7C264 /* FTPServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC66E291C5B153300E7C264 /* FTPServerView.swift */; };
+		BFC66E301C5B24B200E7C264 /* UISegmentedControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC66E2F1C5B24B200E7C264 /* UISegmentedControl+Extension.swift */; };
+		BFC66E321C5B2B6100E7C264 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC66E311C5B2B6100E7C264 /* AddViewController.swift */; };
+		BFC66E341C5B2B6A00E7C264 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC66E331C5B2B6A00E7C264 /* AddView.swift */; };
+		BFCAFE061C59AD45004F879D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAFE051C59AD45004F879D /* ButtonView.swift */; };
+		BFCAFE0A1C5A1F66004F879D /* InfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCAFE091C5A1F66004F879D /* InfTableViewCell.swift */; };
+		BFCB9B3F1CC083F90028ADD0 /* DataTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9B3E1CC083F90028ADD0 /* DataTransferView.swift */; };
+		BFCB9B411CC0B8F50028ADD0 /* TransferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9B401CC0B8F50028ADD0 /* TransferCell.swift */; };
+		BFCB9B431CC0E02D0028ADD0 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9B421CC0E02D0028ADD0 /* FileHelper.swift */; };
+		BFD372601CC7325A00A63907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD372621CC7325A00A63907 /* InfoPlist.strings */; };
+		BFD65A2C1C4F216800D9E56C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD65A2B1C4F216800D9E56C /* DataBaseManager.swift */; };
+		BFDC67981CA53D7500244A71 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC67971CA53D7500244A71 /* MemberModel.swift */; };
+		BFEC52B01C744DDC00869F90 /* MasterBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC52AF1C744DDC00869F90 /* MasterBaseView.swift */; };
+		BFEC52B21C74606500869F90 /* AgeGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC52B11C74606500869F90 /* AgeGroupView.swift */; };
+		BFEC52B41C7469A300869F90 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC52B31C7469A300869F90 /* MasterTableViewCell.swift */; };
+		BFF8E84D1C4C8806000F06D4 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E84C1C4C8806000F06D4 /* MainMenuViewController.swift */; };
+		BFF8E84F1C4C88B4000F06D4 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E84E1C4C88B4000F06D4 /* MainMenuView.swift */; };
+		BFF8E8541C4C9185000F06D4 /* ControlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E8531C4C9185000F06D4 /* ControlHelper.swift */; };
+		BFF8E8821C4CE43E000F06D4 /* EnquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E8811C4CE43E000F06D4 /* EnquiryViewController.swift */; };
+		BFF8E8841C4CE44F000F06D4 /* AgeGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E8831C4CE44F000F06D4 /* AgeGroupViewController.swift */; };
+		BFF8E8861C4CE475000F06D4 /* NationalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E8851C4CE475000F06D4 /* NationalityViewController.swift */; };
+		BFF8E88C1C4CE4C6000F06D4 /* UserAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E88B1C4CE4C6000F06D4 /* UserAccountsViewController.swift */; };
+		BFF8E88E1C4CE4E2000F06D4 /* FTPServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E88D1C4CE4E2000F06D4 /* FTPServerViewController.swift */; };
+		BFF8E8901C4CE51E000F06D4 /* DataTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E88F1C4CE51E000F06D4 /* DataTransferViewController.swift */; };
+		BFF8E8921C4CE532000F06D4 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E8911C4CE532000F06D4 /* SystemViewController.swift */; };
+		C631840D9E45A722E3212D88 /* Pods_CRM_Mobile_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7612AD305CFE38F613544A /* Pods_CRM_Mobile_Lite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D7612AD305CFE38F613544A /* Pods_CRM_Mobile_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRM_Mobile_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B576B0C30CAD3B5C3D623C /* Pods-CRM Mobile Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRM Mobile Lite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRM Mobile Lite/Pods-CRM Mobile Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		99AF29E40835F6122085A01E /* Pods-CRM Mobile Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRM Mobile Lite.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRM Mobile Lite/Pods-CRM Mobile Lite.release.xcconfig"; sourceTree = "<group>"; };
+		BF0739D61CB4B77600AC9A12 /* EnquiryResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryResultCell.swift; sourceTree = "<group>"; };
+		BF0739D81CB502D100AC9A12 /* EnquiryDetaileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryDetaileViewController.swift; sourceTree = "<group>"; };
+		BF1197C81C608F1D00F57799 /* CurrentFTPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFTPModel.swift; sourceTree = "<group>"; };
+		BF1373EE1C5077F300FE1360 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BF1373EF1C5077F300FE1360 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BF1373F01C5077F300FE1360 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BF1373F11C50781B00FE1360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF1879391CACF4C7002C4A73 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		BF29DAC91C966BB30057BCA2 /* AgeFromToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeFromToViewController.swift; sourceTree = "<group>"; };
+		BF29DACB1C96709F0057BCA2 /* AgeFromToTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeFromToTableViewCell.swift; sourceTree = "<group>"; };
+		BF5A8F731C869297007E8863 /* ProvinceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceViewController.swift; sourceTree = "<group>"; };
+		BF5A8F901C86E082007E8863 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		BF6026D01CA8CE300080D720 /* GroupSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSelectView.swift; sourceTree = "<group>"; };
+		BF6238A81C8579D800302FC4 /* CountryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		BF62AC1B1CB64E0F009316E7 /* MaintenanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceController.swift; sourceTree = "<group>"; };
+		BF78755D1CA233F4001A0A65 /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		BF7875631CA24196001A0A65 /* RegisteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteView.swift; sourceTree = "<group>"; };
+		BF7BA2A41C5879B300A97768 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BF7BA2A61C587A5E00A97768 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BF7BA2A81C587CA700A97768 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		BF7BA2AA1C587D9C00A97768 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BF7BA2AC1C58825500A97768 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		BF7BA2AE1C58AF9300A97768 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		BF7BA2B01C58B38E00A97768 /* UserAccoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccoutView.swift; sourceTree = "<group>"; };
+		BF7EC7471C71BD48003EF360 /* IncomeRangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeRangeViewController.swift; sourceTree = "<group>"; };
+		BF7EC7491C71BD82003EF360 /* OccupationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupationViewController.swift; sourceTree = "<group>"; };
+		BF7EC74B1C71BDA6003EF360 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		BF879C961C48EDF500A6A5A5 /* CRM Mobile Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRM Mobile Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF879C991C48EDF500A6A5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF879C9B1C48EDF500A6A5A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF879C9E1C48EDF500A6A5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF879CA01C48EDF500A6A5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF879CA31C48EDF500A6A5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF879CA51C48EDF500A6A5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF879CAD1C48F3AC00A6A5A5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BF879CAE1C48F3AC00A6A5A5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BF879CAF1C48F3AC00A6A5A5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BF879CB01C48F3AC00A6A5A5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BF879CB11C48F3AC00A6A5A5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BF879CB21C48F3AC00A6A5A5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BF879CB31C48F3AC00A6A5A5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BF879CB41C48F3AC00A6A5A5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BF879CB51C48F3AC00A6A5A5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		BF879CB61C48F3AC00A6A5A5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BF879CB71C48F3AC00A6A5A5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BF879CB91C48F3AC00A6A5A5 /* FTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPManager.h; sourceTree = "<group>"; };
+		BF879CBA1C48F3AC00A6A5A5 /* FTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPManager.m; sourceTree = "<group>"; };
+		BF879CBC1C48F3AC00A6A5A5 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BF879CBD1C48F3AC00A6A5A5 /* INFODrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFODrawerViewController.swift; sourceTree = "<group>"; };
+		BF879CBE1C48F3AC00A6A5A5 /* INFODropShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFODropShadowView.swift; sourceTree = "<group>"; };
+		BF879CBF1C48F3AC00A6A5A5 /* INFOTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFOTableViewCell.swift; sourceTree = "<group>"; };
+		BF879CC01C48F3AC00A6A5A5 /* INFOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFOViewController.swift; sourceTree = "<group>"; };
+		BF879CC21C48F3AC00A6A5A5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BF879CC31C48F3AC00A6A5A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BF879CEE1C48F59200A6A5A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BF9927621C75C6E800AB9E8E /* MasterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterModel.swift; sourceTree = "<group>"; };
+		BF9E2B541CBF78C700AA18D6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		BF9E2B551CBF78C700AA18D6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BF9E2B561CBF78C700AA18D6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BFA3B04E1CB390D100FE7896 /* EnquiryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryView.swift; sourceTree = "<group>"; };
+		BFA3B0501CB3C54F00FE7896 /* EnquiryResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryResultView.swift; sourceTree = "<group>"; };
+		BFA7DD141C5EFD5000D3AFDF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BFA7DD161C5F0AE700D3AFDF /* CurrentUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserModel.swift; sourceTree = "<group>"; };
+		BFC66E291C5B153300E7C264 /* FTPServerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPServerView.swift; sourceTree = "<group>"; };
+		BFC66E2F1C5B24B200E7C264 /* UISegmentedControl+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extension.swift"; sourceTree = "<group>"; };
+		BFC66E311C5B2B6100E7C264 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BFC66E331C5B2B6A00E7C264 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BFCAFE051C59AD45004F879D /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BFCAFE091C5A1F66004F879D /* InfTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfTableViewCell.swift; sourceTree = "<group>"; };
+		BFCB9B3E1CC083F90028ADD0 /* DataTransferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferView.swift; sourceTree = "<group>"; };
+		BFCB9B401CC0B8F50028ADD0 /* TransferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferCell.swift; sourceTree = "<group>"; };
+		BFCB9B421CC0E02D0028ADD0 /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		BFD3725B1CC72FE000A63907 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
+		BFD3725C1CC7302500A63907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		BFD3725D1CC7309500A63907 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/Info.plist"; sourceTree = "<group>"; };
+		BFD372611CC7325A00A63907 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BFD372631CC732B000A63907 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BFD372641CC732B100A63907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD65A2B1C4F216800D9E56C /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		BFDC67971CA53D7500244A71 /* MemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		BFE7CB7B1CC72B70002FF700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		BFEC52AF1C744DDC00869F90 /* MasterBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterBaseView.swift; sourceTree = "<group>"; };
+		BFEC52B11C74606500869F90 /* AgeGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeGroupView.swift; sourceTree = "<group>"; };
+		BFEC52B31C7469A300869F90 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		BFF8E8471C4C8128000F06D4 /* CRMMobileLite_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMMobileLite_bridge.h; sourceTree = "<group>"; };
+		BFF8E84C1C4C8806000F06D4 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		BFF8E84E1C4C88B4000F06D4 /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		BFF8E8531C4C9185000F06D4 /* ControlHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlHelper.swift; sourceTree = "<group>"; };
+		BFF8E8811C4CE43E000F06D4 /* EnquiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryViewController.swift; sourceTree = "<group>"; };
+		BFF8E8831C4CE44F000F06D4 /* AgeGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeGroupViewController.swift; sourceTree = "<group>"; };
+		BFF8E8851C4CE475000F06D4 /* NationalityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalityViewController.swift; sourceTree = "<group>"; };
+		BFF8E88B1C4CE4C6000F06D4 /* UserAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountsViewController.swift; sourceTree = "<group>"; };
+		BFF8E88D1C4CE4E2000F06D4 /* FTPServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPServerViewController.swift; sourceTree = "<group>"; };
+		BFF8E88F1C4CE51E000F06D4 /* DataTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferViewController.swift; sourceTree = "<group>"; };
+		BFF8E8911C4CE532000F06D4 /* SystemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +187,206 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF879CEF1C48F59200A6A5A5 /* libsqlite3.tbd in Frameworks */,
+				C631840D9E45A722E3212D88 /* Pods_CRM_Mobile_Lite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6174FC11E942E995FAED72D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B576B0C30CAD3B5C3D623C /* Pods-CRM Mobile Lite.debug.xcconfig */,
+				99AF29E40835F6122085A01E /* Pods-CRM Mobile Lite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89DB8F738D39BDDE5E4950BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D7612AD305CFE38F613544A /* Pods_CRM_Mobile_Lite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1879351CACF4A4002C4A73 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				BF1879361CACF4A4002C4A73 /* Controller */,
+				BF1879371CACF4A4002C4A73 /* Model */,
+				BF1879381CACF4A4002C4A73 /* View */,
+			);
+			name = Education;
+			path = "CRM Mobile Lite/Education";
+			sourceTree = "<group>";
+		};
+		BF1879361CACF4A4002C4A73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF1879391CACF4C7002C4A73 /* EducationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF1879371CACF4A4002C4A73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF1879381CACF4A4002C4A73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF7BA29E1C5874BF00A97768 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF7BA2A41C5879B300A97768 /* UIColor+Extension.swift */,
+				BF7BA2A61C587A5E00A97768 /* String+Extension.swift */,
+				BF7BA2A81C587CA700A97768 /* UILabel+Extension.swift */,
+				BF7BA2AA1C587D9C00A97768 /* UIButton+Extension.swift */,
+				BF7BA2AC1C58825500A97768 /* UITextField+Extension.swift */,
+				BFC66E2F1C5B24B200E7C264 /* UISegmentedControl+Extension.swift */,
+				BFCB9B421CC0E02D0028ADD0 /* FileHelper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF7EC73B1C71BBFA003EF360 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC73C1C71BBFB003EF360 /* Controller */,
+				BF7EC73D1C71BBFB003EF360 /* Model */,
+				BF7EC73E1C71BBFB003EF360 /* View */,
+			);
+			name = Country;
+			path = "CRM Mobile Lite/Country";
+			sourceTree = "<group>";
+		};
+		BF7EC73C1C71BBFB003EF360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC74B1C71BDA6003EF360 /* CountryViewController.swift */,
+				BF5A8F731C869297007E8863 /* ProvinceViewController.swift */,
+				BF5A8F901C86E082007E8863 /* CityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF7EC73D1C71BBFB003EF360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF7EC73E1C71BBFB003EF360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF6238A81C8579D800302FC4 /* CountryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF7EC73F1C71BBFB003EF360 /* IncomeRange */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC7401C71BBFB003EF360 /* Controller */,
+				BF7EC7411C71BBFB003EF360 /* Model */,
+				BF7EC7421C71BBFB003EF360 /* View */,
+			);
+			name = IncomeRange;
+			path = "CRM Mobile Lite/IncomeRange";
+			sourceTree = "<group>";
+		};
+		BF7EC7401C71BBFB003EF360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC7471C71BD48003EF360 /* IncomeRangeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF7EC7411C71BBFB003EF360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF7EC7421C71BBFB003EF360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF7EC7431C71BBFB003EF360 /* Occupation */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC7441C71BBFB003EF360 /* Controller */,
+				BF7EC7451C71BBFB003EF360 /* Model */,
+				BF7EC7461C71BBFB003EF360 /* View */,
+			);
+			name = Occupation;
+			path = "CRM Mobile Lite/Occupation";
+			sourceTree = "<group>";
+		};
+		BF7EC7441C71BBFB003EF360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF7EC7491C71BD82003EF360 /* OccupationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF7EC7451C71BBFB003EF360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF7EC7461C71BBFB003EF360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BF879C8D1C48EDF500A6A5A5 = {
 			isa = PBXGroup;
 			children = (
+				BFD372621CC7325A00A63907 /* InfoPlist.strings */,
+				BF1879351CACF4A4002C4A73 /* Education */,
+				BFD65A2A1C4F211C00D9E56C /* DataBase */,
+				BFF8E8481C4C87D8000F06D4 /* MainMenu */,
+				BFF8E86F1C4CDB2B000F06D4 /* Registration */,
+				BFF8E8631C4CDB2B000F06D4 /* Enquiry */,
+				BFF8E8571C4CDB2B000F06D4 /* AgeGroup */,
+				BF7EC7431C71BBFB003EF360 /* Occupation */,
+				BF7EC73F1C71BBFB003EF360 /* IncomeRange */,
+				BFF8E86B1C4CDB2B000F06D4 /* Nationality */,
+				BF7EC73B1C71BBFA003EF360 /* Country */,
+				BFF8E8771C4CDB2B000F06D4 /* UserAccounts */,
+				BFF8E8671C4CDB2B000F06D4 /* FTPServer */,
+				BFF8E85B1C4CDB2B000F06D4 /* DataTransfer */,
+				BFF8E8731C4CDB2B000F06D4 /* System */,
+				BF1373EC1C50778F00FE1360 /* Localizable.strings */,
+				BF879CEE1C48F59200A6A5A5 /* libsqlite3.tbd */,
+				BFF8E8501C4C8D0B000F06D4 /* INFControl */,
+				BF879CAB1C48F3AC00A6A5A5 /* Libraries */,
 				BF879C981C48EDF500A6A5A5 /* CRM Mobile Lite */,
 				BF879C971C48EDF500A6A5A5 /* Products */,
+				6174FC11E942E995FAED72D9 /* Pods */,
+				89DB8F738D39BDDE5E4950BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +403,416 @@
 			children = (
 				BF879C991C48EDF500A6A5A5 /* AppDelegate.swift */,
 				BF879C9B1C48EDF500A6A5A5 /* ViewController.swift */,
+				BFEC52AF1C744DDC00869F90 /* MasterBaseView.swift */,
+				BFEC52B31C7469A300869F90 /* MasterTableViewCell.swift */,
+				BF9927621C75C6E800AB9E8E /* MasterModel.swift */,
 				BF879C9D1C48EDF500A6A5A5 /* Main.storyboard */,
 				BF879CA01C48EDF500A6A5A5 /* Assets.xcassets */,
 				BF879CA21C48EDF500A6A5A5 /* LaunchScreen.storyboard */,
-				BF879CA51C48EDF500A6A5A5 /* Info.plist */,
+				BFE7CB781CC72AD5002FF700 /* Info.plist */,
+				BFF8E8471C4C8128000F06D4 /* CRMMobileLite_bridge.h */,
+				BF7BA2AE1C58AF9300A97768 /* BaseView.swift */,
 			);
 			path = "CRM Mobile Lite";
+			sourceTree = "<group>";
+		};
+		BF879CAB1C48F3AC00A6A5A5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BF7BA29E1C5874BF00A97768 /* Classes */,
+				BF879CAC1C48F3AC00A6A5A5 /* fmdb */,
+				BF879CB81C48F3AC00A6A5A5 /* FTPManager */,
+				BF879CBB1C48F3AC00A6A5A5 /* INFORESideMenu */,
+				BF879CC11C48F3AC00A6A5A5 /* MBProgressHUD */,
+			);
+			name = Libraries;
+			path = "CRM Mobile Lite/Libraries";
+			sourceTree = "<group>";
+		};
+		BF879CAC1C48F3AC00A6A5A5 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				BF879CAD1C48F3AC00A6A5A5 /* FMDatabase.h */,
+				BF879CAE1C48F3AC00A6A5A5 /* FMDatabase.m */,
+				BF879CAF1C48F3AC00A6A5A5 /* FMDatabaseAdditions.h */,
+				BF879CB01C48F3AC00A6A5A5 /* FMDatabaseAdditions.m */,
+				BF879CB11C48F3AC00A6A5A5 /* FMDatabasePool.h */,
+				BF879CB21C48F3AC00A6A5A5 /* FMDatabasePool.m */,
+				BF879CB31C48F3AC00A6A5A5 /* FMDatabaseQueue.h */,
+				BF879CB41C48F3AC00A6A5A5 /* FMDatabaseQueue.m */,
+				BF879CB51C48F3AC00A6A5A5 /* FMDB.h */,
+				BF879CB61C48F3AC00A6A5A5 /* FMResultSet.h */,
+				BF879CB71C48F3AC00A6A5A5 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		BF879CB81C48F3AC00A6A5A5 /* FTPManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF879CB91C48F3AC00A6A5A5 /* FTPManager.h */,
+				BF879CBA1C48F3AC00A6A5A5 /* FTPManager.m */,
+			);
+			path = FTPManager;
+			sourceTree = "<group>";
+		};
+		BF879CBB1C48F3AC00A6A5A5 /* INFORESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BF879CBC1C48F3AC00A6A5A5 /* BaseViewController.swift */,
+				BF879CBD1C48F3AC00A6A5A5 /* INFODrawerViewController.swift */,
+				BF879CBE1C48F3AC00A6A5A5 /* INFODropShadowView.swift */,
+				BF879CBF1C48F3AC00A6A5A5 /* INFOTableViewCell.swift */,
+				BF879CC01C48F3AC00A6A5A5 /* INFOViewController.swift */,
+			);
+			path = INFORESideMenu;
+			sourceTree = "<group>";
+		};
+		BF879CC11C48F3AC00A6A5A5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BF879CC21C48F3AC00A6A5A5 /* MBProgressHUD.h */,
+				BF879CC31C48F3AC00A6A5A5 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BFD65A2A1C4F211C00D9E56C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				BFD65A2B1C4F216800D9E56C /* DataBaseManager.swift */,
+			);
+			name = DataBase;
+			path = "CRM Mobile Lite/DataBase";
+			sourceTree = "<group>";
+		};
+		BFF8E8481C4C87D8000F06D4 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8491C4C87D8000F06D4 /* Controller */,
+				BFF8E84A1C4C87D8000F06D4 /* Model */,
+				BFF8E84B1C4C87D8000F06D4 /* View */,
+			);
+			name = MainMenu;
+			path = "CRM Mobile Lite/MainMenu";
+			sourceTree = "<group>";
+		};
+		BFF8E8491C4C87D8000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E84C1C4C8806000F06D4 /* MainMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E84A1C4C87D8000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E84B1C4C87D8000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E84E1C4C88B4000F06D4 /* MainMenuView.swift */,
+				BFCAFE051C59AD45004F879D /* ButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E8501C4C8D0B000F06D4 /* INFControl */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8531C4C9185000F06D4 /* ControlHelper.swift */,
+			);
+			name = INFControl;
+			path = "CRM Mobile Lite/INFControl";
+			sourceTree = "<group>";
+		};
+		BFF8E8571C4CDB2B000F06D4 /* AgeGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8581C4CDB2B000F06D4 /* Controller */,
+				BFF8E8591C4CDB2B000F06D4 /* Model */,
+				BFF8E85A1C4CDB2B000F06D4 /* View */,
+			);
+			name = AgeGroup;
+			path = "CRM Mobile Lite/AgeGroup";
+			sourceTree = "<group>";
+		};
+		BFF8E8581C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8831C4CE44F000F06D4 /* AgeGroupViewController.swift */,
+				BF29DAC91C966BB30057BCA2 /* AgeFromToViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8591C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E85A1C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFEC52B11C74606500869F90 /* AgeGroupView.swift */,
+				BF29DACB1C96709F0057BCA2 /* AgeFromToTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E85B1C4CDB2B000F06D4 /* DataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E85C1C4CDB2B000F06D4 /* Controller */,
+				BFF8E85D1C4CDB2B000F06D4 /* Model */,
+				BFF8E85E1C4CDB2B000F06D4 /* View */,
+			);
+			name = DataTransfer;
+			path = "CRM Mobile Lite/DataTransfer";
+			sourceTree = "<group>";
+		};
+		BFF8E85C1C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E88F1C4CE51E000F06D4 /* DataTransferViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E85D1C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E85E1C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB9B3E1CC083F90028ADD0 /* DataTransferView.swift */,
+				BFCB9B401CC0B8F50028ADD0 /* TransferCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E8631C4CDB2B000F06D4 /* Enquiry */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8641C4CDB2B000F06D4 /* Controller */,
+				BFF8E8651C4CDB2B000F06D4 /* Model */,
+				BFF8E8661C4CDB2B000F06D4 /* View */,
+			);
+			name = Enquiry;
+			path = "CRM Mobile Lite/Enquiry";
+			sourceTree = "<group>";
+		};
+		BFF8E8641C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8811C4CE43E000F06D4 /* EnquiryViewController.swift */,
+				BF0739D81CB502D100AC9A12 /* EnquiryDetaileViewController.swift */,
+				BF62AC1B1CB64E0F009316E7 /* MaintenanceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8651C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E8661C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3B04E1CB390D100FE7896 /* EnquiryView.swift */,
+				BFA3B0501CB3C54F00FE7896 /* EnquiryResultView.swift */,
+				BF0739D61CB4B77600AC9A12 /* EnquiryResultCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E8671C4CDB2B000F06D4 /* FTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8681C4CDB2B000F06D4 /* Controller */,
+				BFF8E8691C4CDB2B000F06D4 /* Model */,
+				BFF8E86A1C4CDB2B000F06D4 /* View */,
+			);
+			name = FTPServer;
+			path = "CRM Mobile Lite/FTPServer";
+			sourceTree = "<group>";
+		};
+		BFF8E8681C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E88D1C4CE4E2000F06D4 /* FTPServerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8691C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF1197C81C608F1D00F57799 /* CurrentFTPModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E86A1C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFC66E291C5B153300E7C264 /* FTPServerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E86B1C4CDB2B000F06D4 /* Nationality */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E86C1C4CDB2B000F06D4 /* Controller */,
+				BFF8E86D1C4CDB2B000F06D4 /* Model */,
+				BFF8E86E1C4CDB2B000F06D4 /* View */,
+			);
+			name = Nationality;
+			path = "CRM Mobile Lite/Nationality";
+			sourceTree = "<group>";
+		};
+		BFF8E86C1C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8851C4CE475000F06D4 /* NationalityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E86D1C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E86E1C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E86F1C4CDB2B000F06D4 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8701C4CDB2B000F06D4 /* Controller */,
+				BFF8E8711C4CDB2B000F06D4 /* Model */,
+				BFF8E8721C4CDB2B000F06D4 /* View */,
+			);
+			name = Registration;
+			path = "CRM Mobile Lite/Registration";
+			sourceTree = "<group>";
+		};
+		BFF8E8701C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF78755D1CA233F4001A0A65 /* RegistViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8711C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC67971CA53D7500244A71 /* MemberModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E8721C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF7875631CA24196001A0A65 /* RegisteView.swift */,
+				BF6026D01CA8CE300080D720 /* GroupSelectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E8731C4CDB2B000F06D4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8741C4CDB2B000F06D4 /* Controller */,
+				BFF8E8751C4CDB2B000F06D4 /* Model */,
+				BFF8E8761C4CDB2B000F06D4 /* View */,
+			);
+			name = System;
+			path = "CRM Mobile Lite/System";
+			sourceTree = "<group>";
+		};
+		BFF8E8741C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8911C4CE532000F06D4 /* SystemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8751C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E8761C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF8E8771C4CDB2B000F06D4 /* UserAccounts */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E8781C4CDB2B000F06D4 /* Controller */,
+				BFF8E8791C4CDB2B000F06D4 /* Model */,
+				BFF8E87A1C4CDB2B000F06D4 /* View */,
+			);
+			name = UserAccounts;
+			path = "CRM Mobile Lite/UserAccounts";
+			sourceTree = "<group>";
+		};
+		BFF8E8781C4CDB2B000F06D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8E88B1C4CE4C6000F06D4 /* UserAccountsViewController.swift */,
+				BFC66E311C5B2B6100E7C264 /* AddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF8E8791C4CDB2B000F06D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7DD141C5EFD5000D3AFDF /* UserModel.swift */,
+				BFA7DD161C5F0AE700D3AFDF /* CurrentUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF8E87A1C4CDB2B000F06D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFC66E331C5B2B6A00E7C264 /* AddView.swift */,
+				BF7BA2B01C58B38E00A97768 /* UserAccoutView.swift */,
+				BFCAFE091C5A1F66004F879D /* InfTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +822,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF879CA81C48EDF500A6A5A5 /* Build configuration list for PBXNativeTarget "CRM Mobile Lite" */;
 			buildPhases = (
+				675805E2CB8F4F171681524E /* [CP] Check Pods Manifest.lock */,
 				BF879C921C48EDF500A6A5A5 /* Sources */,
 				BF879C931C48EDF500A6A5A5 /* Frameworks */,
 				BF879C941C48EDF500A6A5A5 /* Resources */,
+				8A18E6EAB62C5B69F043E703 /* [CP] Embed Pods Frameworks */,
+				5110B8F63898C7EADDC3231A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +845,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = infoware;
 				TargetAttributes = {
 					BF879C951C48EDF500A6A5A5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U837TW5R38;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -106,6 +862,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = BF879C8D1C48EDF500A6A5A5;
 			productRefGroup = BF879C971C48EDF500A6A5A5 /* Products */;
@@ -122,6 +880,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1373EA1C50778F00FE1360 /* Localizable.strings in Resources */,
+				BFD372601CC7325A00A63907 /* InfoPlist.strings in Resources */,
 				BF879CA41C48EDF500A6A5A5 /* LaunchScreen.storyboard in Resources */,
 				BF879CA11C48EDF500A6A5A5 /* Assets.xcassets in Resources */,
 				BF879C9F1C48EDF500A6A5A5 /* Main.storyboard in Resources */,
@@ -130,23 +890,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5110B8F63898C7EADDC3231A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRM Mobile Lite/Pods-CRM Mobile Lite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675805E2CB8F4F171681524E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A18E6EAB62C5B69F043E703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRM Mobile Lite/Pods-CRM Mobile Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF879C921C48EDF500A6A5A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7BA2A91C587CA700A97768 /* UILabel+Extension.swift in Sources */,
+				BF5A8F911C86E082007E8863 /* CityViewController.swift in Sources */,
+				BF6026D11CA8CE300080D720 /* GroupSelectView.swift in Sources */,
+				BF879CD41C48F3AC00A6A5A5 /* FMDatabase.m in Sources */,
+				BF78755F1CA233F4001A0A65 /* RegistViewController.swift in Sources */,
+				BFC66E341C5B2B6A00E7C264 /* AddView.swift in Sources */,
+				BFC66E2A1C5B153300E7C264 /* FTPServerView.swift in Sources */,
+				BFEC52B01C744DDC00869F90 /* MasterBaseView.swift in Sources */,
+				BF29DACA1C966BB30057BCA2 /* AgeFromToViewController.swift in Sources */,
+				BFF8E8901C4CE51E000F06D4 /* DataTransferViewController.swift in Sources */,
+				BFF8E8821C4CE43E000F06D4 /* EnquiryViewController.swift in Sources */,
+				BF9927631C75C6E800AB9E8E /* MasterModel.swift in Sources */,
+				BFD65A2C1C4F216800D9E56C /* DataBaseManager.swift in Sources */,
+				BFF8E8841C4CE44F000F06D4 /* AgeGroupViewController.swift in Sources */,
+				BF6238A91C8579D800302FC4 /* CountryView.swift in Sources */,
+				BFF8E84D1C4C8806000F06D4 /* MainMenuViewController.swift in Sources */,
+				BFF8E88E1C4CE4E2000F06D4 /* FTPServerViewController.swift in Sources */,
+				BFEC52B41C7469A300869F90 /* MasterTableViewCell.swift in Sources */,
+				BF879CDD1C48F3AC00A6A5A5 /* INFOTableViewCell.swift in Sources */,
+				BFF8E84F1C4C88B4000F06D4 /* MainMenuView.swift in Sources */,
+				BF879CDE1C48F3AC00A6A5A5 /* INFOViewController.swift in Sources */,
+				BFF8E88C1C4CE4C6000F06D4 /* UserAccountsViewController.swift in Sources */,
+				BFA7DD171C5F0AE700D3AFDF /* CurrentUserModel.swift in Sources */,
+				BFEC52B21C74606500869F90 /* AgeGroupView.swift in Sources */,
+				BF7BA2AD1C58825500A97768 /* UITextField+Extension.swift in Sources */,
+				BFCAFE061C59AD45004F879D /* ButtonView.swift in Sources */,
+				BF7EC74C1C71BDA6003EF360 /* CountryViewController.swift in Sources */,
+				BF62AC1C1CB64E0F009316E7 /* MaintenanceController.swift in Sources */,
+				BF0739D91CB502D100AC9A12 /* EnquiryDetaileViewController.swift in Sources */,
+				BFF8E8921C4CE532000F06D4 /* SystemViewController.swift in Sources */,
+				BFF8E8861C4CE475000F06D4 /* NationalityViewController.swift in Sources */,
+				BF7EC7481C71BD48003EF360 /* IncomeRangeViewController.swift in Sources */,
 				BF879C9C1C48EDF500A6A5A5 /* ViewController.swift in Sources */,
+				BF7BA2A51C5879B300A97768 /* UIColor+Extension.swift in Sources */,
+				BF7BA2AB1C587D9C00A97768 /* UIButton+Extension.swift in Sources */,
+				BF18793A1CACF4C7002C4A73 /* EducationViewController.swift in Sources */,
+				BFCB9B431CC0E02D0028ADD0 /* FileHelper.swift in Sources */,
+				BF879CD81C48F3AC00A6A5A5 /* FMResultSet.m in Sources */,
+				BFDC67981CA53D7500244A71 /* MemberModel.swift in Sources */,
+				BF879CD61C48F3AC00A6A5A5 /* FMDatabasePool.m in Sources */,
+				BF7875641CA24196001A0A65 /* RegisteView.swift in Sources */,
+				BF1197C91C608F1D00F57799 /* CurrentFTPModel.swift in Sources */,
+				BF879CD91C48F3AC00A6A5A5 /* FTPManager.m in Sources */,
+				BF879CDA1C48F3AC00A6A5A5 /* BaseViewController.swift in Sources */,
+				BFC66E301C5B24B200E7C264 /* UISegmentedControl+Extension.swift in Sources */,
+				BFA3B04F1CB390D100FE7896 /* EnquiryView.swift in Sources */,
 				BF879C9A1C48EDF500A6A5A5 /* AppDelegate.swift in Sources */,
+				BF879CD51C48F3AC00A6A5A5 /* FMDatabaseAdditions.m in Sources */,
+				BF7EC74A1C71BD82003EF360 /* OccupationViewController.swift in Sources */,
+				BFCB9B3F1CC083F90028ADD0 /* DataTransferView.swift in Sources */,
+				BF879CDC1C48F3AC00A6A5A5 /* INFODropShadowView.swift in Sources */,
+				BF879CD71C48F3AC00A6A5A5 /* FMDatabaseQueue.m in Sources */,
+				BFA7DD151C5EFD5000D3AFDF /* UserModel.swift in Sources */,
+				BF29DACC1C96709F0057BCA2 /* AgeFromToTableViewCell.swift in Sources */,
+				BF7BA2B11C58B38E00A97768 /* UserAccoutView.swift in Sources */,
+				BF879CDB1C48F3AC00A6A5A5 /* INFODrawerViewController.swift in Sources */,
+				BFCB9B411CC0B8F50028ADD0 /* TransferCell.swift in Sources */,
+				BF879CDF1C48F3AC00A6A5A5 /* MBProgressHUD.m in Sources */,
+				BFA3B0511CB3C54F00FE7896 /* EnquiryResultView.swift in Sources */,
+				BFCAFE0A1C5A1F66004F879D /* InfTableViewCell.swift in Sources */,
+				BF0739D71CB4B77600AC9A12 /* EnquiryResultCell.swift in Sources */,
+				BFF8E8541C4C9185000F06D4 /* ControlHelper.swift in Sources */,
+				BF5A8F741C869297007E8863 /* ProvinceViewController.swift in Sources */,
+				BF7BA2A71C587A5E00A97768 /* String+Extension.swift in Sources */,
+				BFC66E321C5B2B6100E7C264 /* AddViewController.swift in Sources */,
+				BF7BA2AF1C58AF9300A97768 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		BF1373EC1C50778F00FE1360 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1373F01C5077F300FE1360 /* zh-Hans */,
+				BF1373F11C50781B00FE1360 /* en */,
+				BF9E2B561CBF78C700AA18D6 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BF879C9D1C48EDF500A6A5A5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BF879C9E1C48EDF500A6A5A5 /* Base */,
+				BF1373EE1C5077F300FE1360 /* zh-Hans */,
+				BF9E2B541CBF78C700AA18D6 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +1039,31 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF879CA31C48EDF500A6A5A5 /* Base */,
+				BF1373EF1C5077F300FE1360 /* zh-Hans */,
+				BF9E2B551CBF78C700AA18D6 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD372621CC7325A00A63907 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD372611CC7325A00A63907 /* zh-Hant */,
+				BFD372631CC732B000A63907 /* zh-Hans */,
+				BFD372641CC732B100A63907 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFE7CB781CC72AD5002FF700 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE7CB7B1CC72B70002FF700 /* Base */,
+				BFD3725B1CC72FE000A63907 /* zh-Hans */,
+				BFD3725C1CC7302500A63907 /* en */,
+				BFD3725D1CC7309500A63907 /* zh-Hant */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +1073,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -175,8 +1083,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -202,6 +1112,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CRM Mobile Lite/CRMMobileLite_bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -211,6 +1122,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -220,8 +1132,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -240,6 +1154,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CRM Mobile Lite/CRMMobileLite_bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -247,23 +1163,37 @@
 		};
 		BF879CA91C48EDF500A6A5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B576B0C30CAD3B5C3D623C /* Pods-CRM Mobile Lite.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "CRM Mobile Lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infoware.CRM-Mobile-Lite";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infoware.iCRM-Lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8fa0bc03-c5ad-464c-be12-52d75425ebe7";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		BF879CAA1C48EDF500A6A5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AF29E40835F6122085A01E /* Pods-CRM Mobile Lite.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "CRM Mobile Lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.infoware.CRM-Mobile-Lite";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infoware.iCRM-Lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8fa0bc03-c5ad-464c-be12-52d75425ebe7";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -286,6 +1216,7 @@
 				BF879CAA1C48EDF500A6A5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
