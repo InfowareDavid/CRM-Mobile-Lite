@@ -1,0 +1,212 @@
+/* 
+  Localizable.strings
+  CRM Mobile Lite
+
+  Created by infoware on 21/1/16.
+  Copyright © 2016年 infoware. All rights reserved.
+*/
+/*
+ 
+ English
+ 
+ */
+topName = "iCRM Lite";
+
+// Button
+
+add = "Add";
+ok = "OK";
+cancel = "Cancel";
+save = "Save";
+delete = "Delete";
+on = "ON";
+off = "OFF";
+return = "Return";
+mr = "Mr.";
+ms = "Ms.";
+single = "Single";
+married = "Married";
+reset = "Reset";
+serach = "Search";
+province = "Province";
+city = "City";
+transfer = "Transfer";
+exit = "Exit";
+update = "Update";
+close = "Close";
+modify = "Modify";
+//alertView
+
+warning = "Warning";
+altsave = "Save...";
+saveSuccess = "Save Success!";
+addUserfaile = "Add User Failed!";
+exist = "The user already  exist!";
+deleteSuccess = "Delete Success!";
+deleteFaile = "Delete Failed!";
+unexist = "The user is not exist!";
+connect = "Connecting...";
+connectSuccess = "Connect Success!";
+connectFaile = "Connect Failed!";
+incorectPwd = "The password is incorrect!";
+shouldInput = "Please input the \"Member Code\"!";
+checkRedOne = "Please check the red one!";
+isExist = "Existing!";
+initCountry = "Please initial country Master first!";
+chooseCountry = "Please choose the country first!";
+chooseCountryAndProvinc = "Please choose country and province first!";
+errorInput = "Input Error!";
+seleteItem = "Please select one item!";
+setFTPServer = "Please set FTP Server!";
+transferSuccess = "Transfer Success!";
+transferFailed = "Transfer Failed!";
+// LogonViewController
+
+logUserID = "User ID";
+logPassword = "Password";
+logLogon = "Logon";
+logUserAccountSetup = "User Account Setup";
+
+//Main Menu
+
+maiMainMenu = "Main Menu";
+maiMemberRegistration = "Member Registration";
+mainMemberMaster = "Member Master";
+maiMemberEnquiry = "Member Enquiry";
+maiAgeGroupMaster = "Age Group Master";
+maiNationalityMaster = "Nationality Master";
+maiCountryMaster = "Country Master";
+maiIncomeRangeMaster = "Income Range Master";
+maiOccupationMaster = "Occupation Master";
+maiUserAccountsSetup = "User Accounts Setup";
+maiFTPServerConnectionSetup = "FTP Server Setup";
+maiDataTransfer = "Data Transfer";
+maiSystemParameters = "System Parameters";
+mainEducationMaster = "Education Master";
+
+//User Account Setup
+
+useUserAccountSetup = "User Account Setup";
+useTip = "Please choose one of the below account for maintenance , or click Add button to create a new account.";
+userID = "User ID";
+name = "Name";
+administrator = "Administrator";
+password = "Password";
+
+//FTPServer setup
+
+
+ftpConnectionSetup = "FTP Connection Setup";
+ftpServer = "FTP Server";
+ftpUser = "FTP User";
+ftpPassword = "FTP Password";
+
+
+//Member Registration
+regMemberRegistration = "Member Registration";
+regMemberCode = "Member Code *";
+regIDNumber = "ID Number";
+regSumameAndFristName = "Surname/Frist Name";
+regTitle = "Title";
+regBirthday = "Birthday";
+regAgeOfGroup = "Age of Group";
+regMobileNumber = "Mobile Number";
+regReceiveMessage = "Receive Message";
+regPhoneNumber = "Phone Number";
+regOfficeNumber = "Office Number";
+regEmailAddress = "Email Address";
+regReceiveEmail = "Receive Email";
+regMarriesStatus = "Married Status";
+regAddress = "Address";
+regDistrictGroup = "District Group";
+regNationalityGroup = "Nationality Group";
+regReceiveMail = "Receive Mail";
+regOccupation = "Occupation";
+regIncomeGroup = "Income Group";
+regEducationGroup = "Education Group";
+regMemberCodeWithoutStar = "Member Code";
+
+regSumame = "Surname";
+regFirstName = "First Name";
+regDay = "Day";
+regMonth = "Month";
+regYear = "Year";
+regAgeGroup = "Age Group";
+regArea = "Area";
+regProvince = "Province";
+regMobileNumber = "Mobile Number";
+regCity = "City";
+
+
+
+
+//Member Enquiry
+
+enqSearchContent = "Member information (name, phone number, membership number, ID card number)";
+enqMemberEnquiry = "Member Enquiry";
+enqline = "Line";
+enqMemberName = "Member Name";
+enqMemberID = "Member ID";
+enqMobilePhoneNum = "Mobile Phone No.";
+enqResultHas = "There are ";
+enqResultMemmber = " members meet the query";
+//Member Maintance
+memMemberMaintenance = "Member Maintenance";
+
+//Age Group Master
+
+ageLine = "Line";
+ageAgeGroup = "Age Group";
+ageAgeGroupMaster = "Age Group Master";
+ageFromAge = "From Age";
+ageToAge = "To Age";
+ageUpdateToAge = "Please modify the last ";
+ageShould = "Should be greater than ";
+
+
+//Occupation Master
+occOccupation = "Occupation";
+occOccupationMaster = "Occupation Master";
+
+
+//Income Range Master
+incIncomeRange = "Income Range";
+incIncomeRangeMaster = "Inome Range Master";
+
+
+//Nationality Master
+natNationality = "Nationality";
+natNationalityMaster = "Nationality Master";
+//Country Master
+conCountry = "Country";
+conCPC = "Country / Province / City Master";
+proCountry = "Country:";
+citProvince = "Province:";
+datCity = "City";
+datProvince = "Province";
+datCountry = "Country";
+//Education Master
+eduEducation = "Education";
+eduEducationMaster = "Education Master";
+
+
+//Data Transfer
+
+datChooseTip = "Please choose below one or more files to transfer";
+//System Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
