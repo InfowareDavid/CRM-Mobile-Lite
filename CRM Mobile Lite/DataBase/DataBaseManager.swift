@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 enum MasterTableName:String {
     case AgeGroup = "AgeGroup"
     case Occupation = "Occupation"
@@ -20,24 +19,16 @@ enum MasterTableName:String {
 }
 
 class DataBaseManager: NSObject {
-//    private static var __once: () = { () -> Void in
-//            singleLeton.instance = DataBaseManager()
-//        }()
+
+    
     var         _dataBase:FMDatabase!
     static let defaultManager = DataBaseManager()
-//    class func defaultManager() -> DataBaseManager{
-//        struct singleLeton{
-//            static var preidicate:Int = 0
-//            static var instance:DataBaseManager? = nil
-//        }
-//        _ = DataBaseManager.__once
-//        return singleLeton.instance!
-//    }
+
     override init() {
         super.init()
         self.openDataBaseAndCreateTable()
     }
-    
+
     /**
      打开数据库并初始化表
      */
@@ -78,7 +69,7 @@ class DataBaseManager: NSObject {
      var         officeNationNum:                    String?//办公室电话区号
      var         officeProvinceNum:                  String?//办公室电话省号
      */
-    
+  
     func createMemberTable(){
         if !_dataBase.executeStatements("create table if not exists MemberTable(memberCode Varchar(256),idNumber Varchar(256),memberName Varchar(256),memberSumame Varchar(256),title Varchar(256),birthYear Varchar(256),birthMonth Varchar(256),birthDay Varchar(256),ageGroup Varchar(256),mobileNationNum Varchar(256),mobileProvinceNum Varchar(256),mobileNumber Varchar(256),receiveMessage Varchar(256),phoneNationNum Varchar(256),phoneProvinceNum Varchar(256),phoneNumber Varchar(256),officeNationNum Varchar(256),officeProvinceNum Varchar(256),officeNumber Varchar(256),email Varchar(256),receiveEmail Varchar(256),marriesStaus Varchar(256),address Varchar(256),districtGroup Varchar(256),province Varchar(256),city Varchar(256),nationalityGroup Varchar(256),receveMaile Varchar(256),occupation Varchar(256),incomeGroup Varchar(256),educationGroup Varchar(256))"){
             print("创建MemberTable失败");
@@ -86,7 +77,7 @@ class DataBaseManager: NSObject {
     }
     
 
-    
+ 
     func createEducationTable(){
         
         if !_dataBase.executeStatements("create table if not exists Education(lineID integer,groupName Varchar(256))"){
@@ -185,7 +176,7 @@ class DataBaseManager: NSObject {
      
      - returns: nil
      */
-    
+ 
     func initUserTabel(){
         
         let admin = UserModel()
@@ -194,10 +185,10 @@ class DataBaseManager: NSObject {
         admin.password = "admin"
         admin.admine = true
         if !self.isUserExist(admin){
-            self.addUser(admin)
+            _ = self.addUser(admin)
         }
     }
-    
+  
     func initAgeGroupTable(){
         let ageGroupArray = ["Below 20",
             "Between 21 and 25",
@@ -207,21 +198,6 @@ class DataBaseManager: NSObject {
             "Between 41 and 50",
             "Above 50"]
         
-//        let fromAgeArray = ["0",
-//            "2",
-//            "4",
-//            "6",
-//            "8",
-//            "10",
-//            "12"]
-//        
-//        let toAgeArray = ["1",
-//            "3",
-//            "5",
-//            "7",
-//            "9",
-//            "11",
-//            "13"]
         let fromAgeArray = ["0",
             "21",
             "26",
@@ -245,7 +221,7 @@ class DataBaseManager: NSObject {
             model.fromAge = fromAgeArray[i]
             model.toAge = toAgeArray[i]
             if !self.isAgeGroupExist(model){
-                self.addAgeGroup(model)
+                _ = self.addAgeGroup(model)
             }
         }
     }
@@ -279,7 +255,7 @@ class DataBaseManager: NSObject {
             model.lineNuber = i+1
             model.contentStr = educationArray[i]
             if !self.isEducationExist(model){
-                self.addEducation(model)
+                _ = self.addEducation(model)
             }
         }
 
@@ -301,7 +277,7 @@ class DataBaseManager: NSObject {
             model.lineNuber = i+1
             model.contentStr = OccupationArray[i]
             if !self.isOccupationExist(model){
-                self.addOccupation(model)
+                _ = self.addOccupation(model)
             }
         }
     }
@@ -318,7 +294,7 @@ class DataBaseManager: NSObject {
             model.lineNuber = i+1
             model.contentStr = IncomeRangeArray[i]
             if !self.isIncomeRangeExist(model){
-                self.addIncomeRange(model)
+                _ = self.addIncomeRange(model)
             }
         }
     }
@@ -335,7 +311,7 @@ class DataBaseManager: NSObject {
             model.lineNuber = i+1
             model.contentStr = NationalityArray[i]
             if !self.isNationalityExist(model){
-                self.addNationality(model)
+                _ = self.addNationality(model)
             }
         }
     }
@@ -352,7 +328,7 @@ class DataBaseManager: NSObject {
             model.lineNuber = i+1
             model.contentStr = CountryArray[i]
             if !self.isCountryExist(model){
-                self.addCountry(model)
+                _ = self.addCountry(model)
             }
         }
     }
@@ -377,7 +353,7 @@ class DataBaseManager: NSObject {
             model.contentStr = ProvinceArray[i]
             model.country = CountryArray[i]
             if !self.isProvinceExist(model){
-                self.addProvince(model)
+                _ = self.addProvince(model)
             }
         }
     }
@@ -411,29 +387,36 @@ class DataBaseManager: NSObject {
             model.contentStr = CityArray[i]
             model.province = ProvinceArray[i]
             if !self.isCityExist(model){
-                self.addCity(model)
+                _ = self.addCity(model)
             }
         }
     }
+
     //MARK: - Member
-    
+  
     func addMember(_ member:MemberModel)->Bool{
+       
         let sqlStr = "insert into MemberTable(memberCode,idNumber,memberName,memberSumame,title,birthYear,birthMonth,birthDay,ageGroup,mobileNationNum,mobileProvinceNum,mobileNumber,receiveMessage,phoneNationNum,phoneProvinceNum,phoneNumber,officeNationNum,officeProvinceNum,officeNumber,email,receiveEmail,marriesStaus,address,districtGroup,province,city,nationalityGroup,receveMaile,occupation,incomeGroup,educationGroup) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-        if !_dataBase.executeUpdate(sqlStr, withArgumentsIn: [member.memberCode!,member.idNumber!,member.memberName!,member.memberSumame!,member.title!,member.birthYear!,member.birthMonth!,member.birthDay!,member.ageGroup!,member.mobileNationNum!,member.mobileProvinceNum!,member.mobileNumber!,member.receiveMessage!,member.phoneNationNum!,member.phoneProvinceNum!,member.phoneNumber!,member.officeNationNum!,member.officeProvinceNum!,member.officeNumber!,member.email!,member.receiveEmail!,member.marriesStaus!,member.address!,member.districtGroup!,member.province!,member.city!,member.nationality!,member.receveMaile!,member.occupation!,member.incomeGroup!,member.educationGroup!]){
+        let temp = [member.memberCode!,member.idNumber!,member.memberName!,member.memberSumame!,member.title!,member.birthYear!,member.birthMonth!,member.birthDay!,member.ageGroup!,member.mobileNationNum!,member.mobileProvinceNum!,member.mobileNumber!,member.receiveMessage!,member.phoneNationNum!,member.phoneProvinceNum!,member.phoneNumber!,member.officeNationNum!,member.officeProvinceNum!,member.officeNumber!,member.email!,member.receiveEmail!,member.marriesStaus!,member.address!,member.districtGroup!,member.province!,member.city!,member.nationality!,member.receveMaile!,member.occupation!,member.incomeGroup!,member.educationGroup!]
+        if !_dataBase.executeUpdate(sqlStr, withArgumentsIn:temp){
             print("插入MemberTable失败");
             return false
         }
-
+       
         return true
     }
-    
+ 
     func deleteMember(){
         
     }
-    
+ 
     func updateMember(_ member:MemberModel)->Bool{
+       
         let sqlStr = "update MemberTable set idNumber = ?, memberName = ? ,memberSumame = ?, title = ?, birthYear = ?, birthMonth = ?, birthDay = ? ,ageGroup = ? ,mobileNationNum = ? ,mobileProvinceNum = ?, mobileNumber = ?, receiveMessage = ?, phoneNationNum = ?, phoneProvinceNum = ?, phoneNumber = ?, officeNationNum = ?, officeProvinceNum = ?, officeNumber = ?, email = ?, receiveEmail = ? ,marriesStaus = ?, address = ? ,districtGroup = ? ,province = ? ,city = ? ,nationalityGroup = ? ,receveMaile = ? ,occupation = ?, incomeGroup = ?, educationGroup = ? where memberCode = ? ";
-        if !_dataBase.executeUpdate(sqlStr, withArgumentsIn: [member.idNumber!,member.memberName!,member.memberSumame!,member.title!,member.birthYear!,member.birthMonth!,member.birthDay!,member.ageGroup!,member.mobileNationNum!,member.mobileProvinceNum!,member.mobileNumber!,member.receiveMessage!,member.phoneNationNum!,member.phoneProvinceNum!,member.phoneNumber!,member.officeNationNum!,member.officeProvinceNum!,member.officeNumber!,member.email!,member.receiveEmail!,member.marriesStaus!,member.address!,member.districtGroup!,member.province!,member.city!,member.nationality!,member.receveMaile!,member.occupation!,member.incomeGroup!,member.educationGroup!,member.memberCode!]){
+        
+    let tem = [member.idNumber!,member.memberName!,member.memberSumame!,member.title!,member.birthYear!,member.birthMonth!,member.birthDay!,member.ageGroup!,member.mobileNationNum!,member.mobileProvinceNum!,member.mobileNumber!,member.receiveMessage!,member.phoneNationNum!,member.phoneProvinceNum!,member.phoneNumber!,member.officeNationNum!,member.officeProvinceNum!,member.officeNumber!,member.email!,member.receiveEmail!,member.marriesStaus!,member.address!,member.districtGroup!,member.province!,member.city!,member.nationality!,member.receveMaile!,member.occupation!,member.incomeGroup!,member.educationGroup!,member.memberCode!]
+        
+        if !_dataBase.executeUpdate(sqlStr, withArgumentsIn:tem ){
             print("更新MemberTable失败");
             return false
         }
@@ -441,8 +424,7 @@ class DataBaseManager: NSObject {
         return true
     }
 
-
-    
+  
     func searchMemberWithString(_ aString:String)->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -487,10 +469,11 @@ class DataBaseManager: NSObject {
 
             returnBackArray.add(member);
         }
+        
         return returnBackArray;
     }
-    
-    
+ 
+ 
     func searchAllMember()->NSMutableArray{
         
         var         returnBackArray:                NSMutableArray!;
@@ -535,12 +518,12 @@ class DataBaseManager: NSObject {
             
             returnBackArray.add(member);
         }
-
+        
         return returnBackArray;
-
         
     }
-    
+ 
+ 
     func isMemberExist(_ member:MemberModel)->Bool{
         let sqlStr = "select * from MemberTable where memberCode = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [member.memberCode!])
@@ -549,7 +532,7 @@ class DataBaseManager: NSObject {
         }
         return false
     }
-    
+ 
     //MARK: - Education
     
     func addEducation(_ ageGroup:MasterModel?)->Bool{
@@ -564,7 +547,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteEducation(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from Education where groupName = ?"
@@ -575,7 +558,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func updateEducation(_ ageGroup:MasterModel?)->Bool{
         if isEducationExist(ageGroup){
             return false
@@ -587,7 +570,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateEducationLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update Education set lineID = ? where groupName = ?";
@@ -598,7 +581,7 @@ class DataBaseManager: NSObject {
         return true
     }
     
-    
+ 
     func searchAllEducation() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -614,7 +597,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isEducationExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from Education where groupName = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!])
@@ -640,7 +623,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteCity(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from City where groupName = ? and province = ? and country = ?"
@@ -650,7 +633,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteCityFromProvince(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "delete from City where province = ? and country = ?"
         if !_dataBase.executeUpdate(sqlStr, withArgumentsIn: [(ageGroup?.province)!,(ageGroup?.country)!]){
@@ -659,7 +642,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateCity(_ ageGroup:MasterModel?)->Bool{
         
         if isCityExist(ageGroup){
@@ -673,7 +656,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateCityLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update City set lineID = ? where groupName = ? and province = ? and country = ?";
@@ -683,7 +666,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func searchCityByModel(_ model:MasterModel)->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -702,7 +685,7 @@ class DataBaseManager: NSObject {
         return returnBackArray;
 
     }
-    
+ 
     func searchAllCity() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -721,7 +704,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isCityExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from City where groupName = ? and country = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!,(ageGroup?.country)!])
@@ -730,7 +713,7 @@ class DataBaseManager: NSObject {
         }
         return false
     }
-        
+ 
     //MARK: - Province
     
     func addProvince(_ ageGroup:MasterModel?)->Bool{
@@ -746,7 +729,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteProvince(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from Province where groupName = ? and country = ?"
@@ -757,7 +740,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func deleteProvinceFromCountry(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "delete from Province where country = ?"
         if !_dataBase.executeUpdate(sqlStr, withArgumentsIn: [(ageGroup?.country)!]){
@@ -766,7 +749,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateProvince(_ ageGroup:MasterModel?)->Bool{
         
         if isProvinceExist(ageGroup){
@@ -780,7 +763,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateProvinceLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update Province set lineID = ? where groupName = ? and country = ?";
@@ -790,7 +773,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func searchProvinceByCountry(_ countryStr:String)->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -809,7 +792,7 @@ class DataBaseManager: NSObject {
         return returnBackArray;
     }
     
-    
+ 
     func searchAllProvince() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -825,7 +808,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isProvinceExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from Province where groupName = ? and country = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!,(ageGroup?.country)!])
@@ -852,7 +835,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteCountry(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from Country where groupName = ?"
@@ -862,7 +845,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateCountry(_ ageGroup:MasterModel?)->Bool{
         
         if self.isCountryExist(ageGroup){
@@ -876,7 +859,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateCountryLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update Country set lineID = ? where groupName = ?";
@@ -887,7 +870,7 @@ class DataBaseManager: NSObject {
         return true
     }
     
-    
+ 
     func searchAllCountry() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -904,7 +887,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isCountryExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from Country where groupName = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!])
@@ -931,7 +914,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteNationality(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from Nationality where groupName = ?"
@@ -942,7 +925,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func updateNationality(_ ageGroup:MasterModel?)->Bool{
         if isNationalityExist(ageGroup){
             return false
@@ -954,7 +937,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateNationalityLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update Nationality set lineID = ? where groupName = ?";
@@ -964,8 +947,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
-    
+ 
     func searchAllNationality() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -981,7 +963,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isNationalityExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from Nationality where groupName = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!])
@@ -1006,7 +988,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteIncomeRange(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from IncomeRange where groupName = ?"
@@ -1017,7 +999,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func updateIncomeRange(_ ageGroup:MasterModel?)->Bool{
         if isIncomeRangeExist(ageGroup){
             return false
@@ -1029,7 +1011,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateIncomeRangeLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update IncomeRange set lineID = ? where groupName = ?";
@@ -1040,7 +1022,7 @@ class DataBaseManager: NSObject {
         return true
     }
     
-    
+ 
     func searchAllIncomeRange() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -1056,7 +1038,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isIncomeRangeExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from IncomeRange where groupName = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!])
@@ -1065,7 +1047,7 @@ class DataBaseManager: NSObject {
         }
         return false
     }
-    
+ 
     //MARK: - AgeGroup
     
     func addAgeGroup(_ ageGroup:MasterModel?)->Bool{
@@ -1081,7 +1063,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteAgeGroup(_ ageGroup:MasterModel?)->Bool{
        // print("\(ageGroup?.fromAge)----\(ageGroup?.toAge)----\(ageGroup?.contentStr)")
         let sqlStr = "delete from AgeGroup where groupName = ? and fromAge = ? and toAge = ?"
@@ -1092,7 +1074,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func updateAgeGroup(_ ageGroup:MasterModel?)->Bool{
         if isAgeGroupExist(ageGroup){
             return false
@@ -1106,7 +1088,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+
     
 //    func updateAgeGroupByToAge(ageGroup:MasterModel?)->Bool{
 //        if isAgeGroupExist(ageGroup){
@@ -1131,7 +1113,7 @@ class DataBaseManager: NSObject {
         return true
     }
     
-    
+ 
     func searchAllAgeGroup() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -1150,7 +1132,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isAgeGroupExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from AgeGroup where groupName = ? and fromAge = ? and toAge = ?";
         //print("contentStr\(ageGroup?.contentStr)fromAge:\(ageGroup?.fromAge)toAge:\(ageGroup?.toAge)")
@@ -1160,16 +1142,16 @@ class DataBaseManager: NSObject {
         }
         return false
     }
-    
+ 
     func isTableInited(_ tableName:MasterTableName!)->Bool{
-        let sqlStr = "select * from \(tableName)";
-        let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn:[])
+        let sqlStr = "select * from \(tableName!)";
+        let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr , withArgumentsIn: [])
         if resultSet.next(){
             return true;
         }
         return false
     }
-    
+ 
     //MARK: - Occupation
     
     func addOccupation(_ ageGroup:MasterModel?)->Bool{
@@ -1184,7 +1166,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func deleteOccupation(_ ageGroup:MasterModel?)->Bool{
         
         let sqlStr = "delete from Occupation where groupName = ?"
@@ -1195,7 +1177,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     func updateOccupation(_ ageGroup:MasterModel?)->Bool{
         if isOccupationExist(ageGroup){
             return false
@@ -1207,7 +1189,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     func updateOccupationLineNuber(_ ageGroup:MasterModel?)->Bool{
         
         let sql = "update Occupation set lineID = ? where groupName = ?";
@@ -1218,7 +1200,7 @@ class DataBaseManager: NSObject {
         return true
     }
     
-    
+ 
     func searchAllOccupation() ->NSMutableArray{
         var         returnBackArray:                NSMutableArray!;
         
@@ -1234,7 +1216,7 @@ class DataBaseManager: NSObject {
         }
         return returnBackArray;
     }
-    
+ 
     func isOccupationExist(_ ageGroup:MasterModel?)->Bool{
         let sqlStr = "select * from Occupation where groupName = ?";
         let resultSet:FMResultSet = _dataBase.executeQuery(sqlStr, withArgumentsIn: [(ageGroup?.contentStr)!])
@@ -1249,7 +1231,7 @@ class DataBaseManager: NSObject {
     /**
      *   增删改查
      */
-    
+ 
     func addUser(_ user:UserModel)->Bool{
         
         let sqlStr = "insert into UserTable(userID,userName,password,administrator) values(?,?,?,?)";
@@ -1259,7 +1241,7 @@ class DataBaseManager: NSObject {
         }
         return true
     }
-    
+ 
     /**
      通过用户名查找用户信息
      
@@ -1284,7 +1266,7 @@ class DataBaseManager: NSObject {
         
         return user
     }
-    
+ 
     /**
      返回所有的用户列表
      */
@@ -1309,7 +1291,7 @@ class DataBaseManager: NSObject {
         
         
     }
-    
+ 
     /**
      检查用户是否存在
      
@@ -1328,7 +1310,7 @@ class DataBaseManager: NSObject {
         }
         return false
     }
-    
+ 
     /**
      检测密码是否正确
      
@@ -1349,7 +1331,7 @@ class DataBaseManager: NSObject {
         return false;
         
     }
-    
+ 
     /**
      修改密码
      
@@ -1363,7 +1345,7 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+ 
     /**
      删除用户
      
@@ -1381,5 +1363,5 @@ class DataBaseManager: NSObject {
         
         return true
     }
-    
+
 }

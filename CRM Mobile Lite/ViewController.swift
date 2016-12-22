@@ -137,7 +137,7 @@ class ViewController: BaseViewController {
     
     func setUserAccountButtonState(){
         
-        let currentUser = CurrentUserModel.current()
+        let currentUser = CurrentUserModel.current
         if currentUser.user != nil {
             self.userAccountSetupButton?.isHighlighted = true;
             self.userAccountSetupButton?.isEnabled = false;

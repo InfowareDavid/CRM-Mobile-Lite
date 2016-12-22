@@ -1,0 +1,6 @@
+framework module Pods_CRM_Mobile_Lite {
+  umbrella header "Pods-CRM Mobile Lite-umbrella.h"
+
+  export *
+  module * { export * }
+}

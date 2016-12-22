@@ -100,7 +100,8 @@ class MainMenuViewController: BaseViewController {
     func setButtonState(){
         
         let currentUser = CurrentUserModel.current
-        if   !currentUser.isAdmin(){
+       //MARK: - CHANGE
+        if   !(currentUser.user?.admine)!{
                 self.mainMenuView.userAccountsSetup.button.isHighlighted = true;
                 self.mainMenuView.userAccountsSetup.button.isEnabled = false;
                 
